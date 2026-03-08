@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat 'javac jen1.java'
+                bat 'javac jen2.java'
             }
         }
         stage('executing') {
             steps {
-                bat 'java jen1'
+                bat 'java jen2'
             }
         }
     }
