@@ -7,14 +7,14 @@ pipeline {
                 git 'https://github.com/VementerOp/Jenkins.git'
             }
         }
-        stage('compiling') {
+        stage('Build') {
             steps {
-                bat 'javac domain.java'
+                bat 'javac jen1.java'
             }
         }
-        stage('execting') {
+        stage('executing') {
             steps {
-                bat 'java domain'
+                bat 'java jen1'
             }
         }
     }
