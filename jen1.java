@@ -3,6 +3,6 @@ public class jen1{
 	System.out.println("This is the jenkins practical");
 	System.out.println("Hello Atharva!!");
 	System.out.println("This is the update done in the file.");
-	System.out.println("This is the update done for the WEBHOOKS.");
+	System.out.println("This is the update done for the WEBHOOKS");
   }
 }
